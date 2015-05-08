@@ -1,0 +1,35 @@
+<div class="form-group">
+    <label for="title" class="col-sm-2 control-label">Title</label>
+    <div class="col-sm-10">
+        <input type="text" ng-model="movie.title" class="form-control" id="title" name="uTitle" placeholder="Movie Title Here" required/>
+	 <span ng-show="form.uTitle.$error.required">Write the Movie's Title.</span>
+    </div>
+</div>
+<div class="form-group">
+    <label for="year" class="col-sm-2 control-label">Release Year</label>
+    <div class="col-sm-10">
+        <input type="number" min="0" ng-model="movie.releaseYear" class="form-control" id="year" name="mYear" placeholder="When was the movie released?" required />
+	 <span ng-show="form.mYear.$error.required">Write the Movie's Release Year.</span>
+    </div>
+</div>
+<div class="form-group">
+    <label for="director" class="col-sm-2 control-label">Director</label>
+    <div class="col-sm-10">
+        <input type="text" ng-model="movie.director" class="form-control" id="director" name="mDirector" placeholder="Who directed the movie?" required />
+	  <span ng-show="form.mDirector.$error.required">Write the Movie's Director.</span>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="plot" class="col-sm-2 control-label">Movie Genre</label>
+    <div class="col-sm-10">
+        <input type="text" ng-model="movie.genre" class="form-control" name="mGenre" id="plot" placeholder="Movie genre here" required />
+	 <span ng-show="form.mGenre.$error.required">Write the Movie's Director.</span>
+  </div>
+</div>
+
+<div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+        <input type="submit" ng-disabled="form.$invalid" class="btn btn-primary" value="Save"/>
+    </div>
+</div>
