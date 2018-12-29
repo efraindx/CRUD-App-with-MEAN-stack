@@ -25,6 +25,9 @@ This will run the application and if you make any change to the files the server
 
 This application was runned and tested using following libraries versions:
 MongoDB v4.0.4
+
 Express 4.16.4
+
 AngularJS v1.3.0-beta.2
+
 Node.js 5.5.1
