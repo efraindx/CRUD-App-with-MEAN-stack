@@ -1,0 +1,20 @@
+{
+  "name": "moviesapi",
+  "version": "1.0.0",
+  "description": "API for movies",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "author": "efraindx",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.1"
+  }
+}
