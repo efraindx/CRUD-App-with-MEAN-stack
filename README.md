@@ -24,6 +24,7 @@ For test and run just run the following command in the root folder:
 This will run the application and if you make any change to the files the server will restart automatically thanks to Nodemon.
 
 This application was runned and tested using following libraries versions:
+
 MongoDB v4.0.4
 
 Express 4.16.4
