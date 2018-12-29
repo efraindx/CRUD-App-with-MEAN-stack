@@ -3,14 +3,19 @@ CRUD app with MEAN stack using the RESTful Local API contained in the folder: `a
 
 # Prerequisites
 [Mongo](https://docs.mongodb.com/manual/installation/)
+
 [Node.js](https://nodejs.org/en/download/package-manager/)
+
 [Nodemon](https://nodemon.io/): `npm install nodemon`
+
 Mongoose: `npm install mongoose`
+
 Express: `npm install express`
+
 Body-Parser: `npm install body-parser`
 
 # Configuration
-After installing MongoDB open the `server.js` file  and write your mongo database name here:
+Open the `server.js` file  and write your mongo database name here:
 `mongoose.connect('mongodb://localhost/yourDatabaseName'`
 
 # Test and Run
